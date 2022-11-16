@@ -1,0 +1,1 @@
+Bienvenido a la aplicación para ordenar pizza.\n\n Sigue las instrucciones por favor.
