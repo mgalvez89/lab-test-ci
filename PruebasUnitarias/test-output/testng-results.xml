@@ -2,48 +2,48 @@
 <testng-results skipped="0" failed="4" ignored="1" total="15" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5304" started-at="2022-11-13T21:07:12 CST" finished-at="2022-11-13T21:07:17 CST">
+  <suite name="Default suite" duration-ms="5745" started-at="2022-11-16T15:21:26 CST" finished-at="2022-11-16T15:21:32 CST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5304" started-at="2022-11-13T21:07:12 CST" finished-at="2022-11-13T21:07:17 CST">
-      <class name="proyecto_testng.TestPizzeriaEjercicio1">
-        <test-method status="PASS" signature="preConditions()[pri:0, instance:proyecto_testng.TestPizzeriaEjercicio1@6ee52dcd]" name="preConditions" is-config="true" duration-ms="16" started-at="2022-11-13T21:07:12 CST" finished-at="2022-11-13T21:07:12 CST">
+    <test name="Default test" duration-ms="5745" started-at="2022-11-16T15:21:26 CST" finished-at="2022-11-16T15:21:32 CST">
+      <class name="proyecto_testng.TestPizzaOrden">
+        <test-method status="PASS" signature="preConditions()[pri:0, instance:proyecto_testng.TestPizzaOrden@6ee52dcd]" name="preConditions" is-config="true" duration-ms="42" started-at="2022-11-16T15:21:26 CST" finished-at="2022-11-16T15:21:26 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preConditions -->
-        <test-method status="PASS" signature="initialConditions()[pri:0, instance:proyecto_testng.TestPizzeriaEjercicio1@6ee52dcd]" name="initialConditions" is-config="true" duration-ms="1" started-at="2022-11-13T21:07:12 CST" finished-at="2022-11-13T21:07:12 CST">
+        <test-method status="PASS" signature="initialConditions()[pri:0, instance:proyecto_testng.TestPizzaOrden@6ee52dcd]" name="initialConditions" is-config="true" duration-ms="4" started-at="2022-11-16T15:21:26 CST" finished-at="2022-11-16T15:21:26 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialConditions -->
-        <test-method status="PASS" signature="verificarGuardarIngrediente1ComoOpcionInvalida()[pri:0, instance:proyecto_testng.TestPizzeriaEjercicio1@6ee52dcd]" name="verificarGuardarIngrediente1ComoOpcionInvalida" duration-ms="13" started-at="2022-11-13T21:07:12 CST" finished-at="2022-11-13T21:07:12 CST">
+        <test-method status="PASS" signature="verificarGuardarIngrediente1ComoOpcionInvalida()[pri:0, instance:proyecto_testng.TestPizzaOrden@6ee52dcd]" name="verificarGuardarIngrediente1ComoOpcionInvalida" duration-ms="79" started-at="2022-11-16T15:21:26 CST" finished-at="2022-11-16T15:21:26 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificarGuardarIngrediente1ComoOpcionInvalida -->
-        <test-method status="PASS" signature="verificarGuardarIngrediente1ComoPeperoni()[pri:0, instance:proyecto_testng.TestPizzeriaEjercicio1@6ee52dcd]" name="verificarGuardarIngrediente1ComoPeperoni" duration-ms="2" started-at="2022-11-13T21:07:12 CST" finished-at="2022-11-13T21:07:12 CST">
+        <test-method status="PASS" signature="verificarGuardarIngrediente1ComoPeperoni()[pri:0, instance:proyecto_testng.TestPizzaOrden@6ee52dcd]" name="verificarGuardarIngrediente1ComoPeperoni" duration-ms="15" started-at="2022-11-16T15:21:27 CST" finished-at="2022-11-16T15:21:27 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificarGuardarIngrediente1ComoPeperoni -->
-        <test-method status="PASS" signature="verificarGuardarIngrediente1ComoPimiento()[pri:0, instance:proyecto_testng.TestPizzeriaEjercicio1@6ee52dcd]" name="verificarGuardarIngrediente1ComoPimiento" duration-ms="5" started-at="2022-11-13T21:07:12 CST" finished-at="2022-11-13T21:07:12 CST">
+        <test-method status="PASS" signature="verificarGuardarIngrediente1ComoPimiento()[pri:0, instance:proyecto_testng.TestPizzaOrden@6ee52dcd]" name="verificarGuardarIngrediente1ComoPimiento" duration-ms="3" started-at="2022-11-16T15:21:27 CST" finished-at="2022-11-16T15:21:27 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificarGuardarIngrediente1ComoPimiento -->
-        <test-method status="PASS" signature="verificarGuardarIngrediente2ComoHongos()[pri:0, instance:proyecto_testng.TestPizzeriaEjercicio1@6ee52dcd]" name="verificarGuardarIngrediente2ComoHongos" duration-ms="2" started-at="2022-11-13T21:07:12 CST" finished-at="2022-11-13T21:07:12 CST">
+        <test-method status="PASS" signature="verificarGuardarIngrediente2ComoHongos()[pri:0, instance:proyecto_testng.TestPizzaOrden@6ee52dcd]" name="verificarGuardarIngrediente2ComoHongos" duration-ms="2" started-at="2022-11-16T15:21:27 CST" finished-at="2022-11-16T15:21:27 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificarGuardarIngrediente2ComoHongos -->
-        <test-method status="PASS" signature="verificarGuardarIngrediente2ComoJamon()[pri:0, instance:proyecto_testng.TestPizzeriaEjercicio1@6ee52dcd]" name="verificarGuardarIngrediente2ComoJamon" duration-ms="3" started-at="2022-11-13T21:07:12 CST" finished-at="2022-11-13T21:07:12 CST">
+        <test-method status="PASS" signature="verificarGuardarIngrediente2ComoJamon()[pri:0, instance:proyecto_testng.TestPizzaOrden@6ee52dcd]" name="verificarGuardarIngrediente2ComoJamon" duration-ms="3" started-at="2022-11-16T15:21:27 CST" finished-at="2022-11-16T15:21:27 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificarGuardarIngrediente2ComoJamon -->
-        <test-method status="PASS" signature="verificarGuardarIngrediente3ComoEspinaca()[pri:0, instance:proyecto_testng.TestPizzeriaEjercicio1@6ee52dcd]" name="verificarGuardarIngrediente3ComoEspinaca" duration-ms="2" started-at="2022-11-13T21:07:12 CST" finished-at="2022-11-13T21:07:12 CST">
+        <test-method status="PASS" signature="verificarGuardarIngrediente3ComoEspinaca()[pri:0, instance:proyecto_testng.TestPizzaOrden@6ee52dcd]" name="verificarGuardarIngrediente3ComoEspinaca" duration-ms="3" started-at="2022-11-16T15:21:27 CST" finished-at="2022-11-16T15:21:27 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificarGuardarIngrediente3ComoEspinaca -->
-        <test-method status="PASS" signature="verificarGuardarIngrediente3ComoSalchicha()[pri:0, instance:proyecto_testng.TestPizzeriaEjercicio1@6ee52dcd]" name="verificarGuardarIngrediente3ComoSalchicha" duration-ms="3" started-at="2022-11-13T21:07:12 CST" finished-at="2022-11-13T21:07:12 CST">
+        <test-method status="PASS" signature="verificarGuardarIngrediente3ComoSalchicha()[pri:0, instance:proyecto_testng.TestPizzaOrden@6ee52dcd]" name="verificarGuardarIngrediente3ComoSalchicha" duration-ms="12" started-at="2022-11-16T15:21:27 CST" finished-at="2022-11-16T15:21:27 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificarGuardarIngrediente3ComoSalchicha -->
-        <test-method status="FAIL" signature="verificarListaIngredientesNoVegetarianos()[pri:0, instance:proyecto_testng.TestPizzeriaEjercicio1@6ee52dcd]" name="verificarListaIngredientesNoVegetarianos" duration-ms="25" started-at="2022-11-13T21:07:12 CST" finished-at="2022-11-13T21:07:12 CST">
+        <test-method status="FAIL" signature="verificarListaIngredientesNoVegetarianos()[pri:0, instance:proyecto_testng.TestPizzaOrden@6ee52dcd]" name="verificarListaIngredientesNoVegetarianos" duration-ms="53" started-at="2022-11-16T15:21:27 CST" finished-at="2022-11-16T15:21:27 CST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Selecciona 3 ingredientes de la siguiente lista: 
@@ -52,7 +52,7 @@
 [c] Espinaca 
 [d] Peperoni 
 [e] Jamon 
-] but found [Bienvenido a la aplicaciÃ³n para ordenar pizza.\n\n Sigue las instrucciones por favor.kaka]]]>
+] but found [Bienvenido a la aplicaciÃ³n para ordenar pizza.\n\n Sigue las instrucciones por favor.]]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: expected [Selecciona 3 ingredientes de la siguiente lista: 
@@ -61,14 +61,14 @@
 [c] Espinaca 
 [d] Peperoni 
 [e] Jamon 
-] but found [Bienvenido a la aplicaciÃ³n para ordenar pizza.\n\n Sigue las instrucciones por favor.kaka]
+] but found [Bienvenido a la aplicaciÃ³n para ordenar pizza.\n\n Sigue las instrucciones por favor.]
 at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
 at org.testng.Assert.assertEquals(Assert.java:639)
-at proyecto_testng.TestPizzeriaEjercicio1.verificarListaIngredientesNoVegetarianos(TestPizzeriaEjercicio1.java:146)
+at proyecto_testng.TestPizzaOrden.verificarListaIngredientesNoVegetarianos(TestPizzaOrden.java:151)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -103,7 +103,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificarListaIngredientesNoVegetarianos -->
-        <test-method status="FAIL" signature="verificarListaIngredientesVegetarianos()[pri:0, instance:proyecto_testng.TestPizzeriaEjercicio1@6ee52dcd]" name="verificarListaIngredientesVegetarianos" duration-ms="4" started-at="2022-11-13T21:07:12 CST" finished-at="2022-11-13T21:07:12 CST">
+        <test-method status="FAIL" signature="verificarListaIngredientesVegetarianos()[pri:0, instance:proyecto_testng.TestPizzaOrden@6ee52dcd]" name="verificarListaIngredientesVegetarianos" duration-ms="8" started-at="2022-11-16T15:21:27 CST" finished-at="2022-11-16T15:21:27 CST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Selecciona 3 ingredientes de la siguiente lista: 
@@ -112,7 +112,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 [c] Espinaca 
 [o] Ninguno 
 
-] but found [Bienvenido a la aplicaciÃ³n para ordenar pizza.\n\n Sigue las instrucciones por favor.kaka]]]>
+] but found [Bienvenido a la aplicaciÃ³n para ordenar pizza.\n\n Sigue las instrucciones por favor.]]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: expected [Selecciona 3 ingredientes de la siguiente lista: 
@@ -121,14 +121,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 [c] Espinaca 
 [o] Ninguno 
 
-] but found [Bienvenido a la aplicaciÃ³n para ordenar pizza.\n\n Sigue las instrucciones por favor.kaka]
+] but found [Bienvenido a la aplicaciÃ³n para ordenar pizza.\n\n Sigue las instrucciones por favor.]
 at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
 at org.testng.Assert.assertEquals(Assert.java:639)
-at proyecto_testng.TestPizzeriaEjercicio1.verificarListaIngredientesVegetarianos(TestPizzeriaEjercicio1.java:135)
+at proyecto_testng.TestPizzaOrden.verificarListaIngredientesVegetarianos(TestPizzaOrden.java:140)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -163,28 +163,28 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificarListaIngredientesVegetarianos -->
-        <test-method status="FAIL" signature="verificarMensajeDeInicioSeDespliega()[pri:0, instance:proyecto_testng.TestPizzeriaEjercicio1@6ee52dcd]" name="verificarMensajeDeInicioSeDespliega" duration-ms="3" started-at="2022-11-13T21:07:12 CST" finished-at="2022-11-13T21:07:12 CST">
+        <test-method status="FAIL" signature="verificarMensajeDeInicioSeDespliega()[pri:0, instance:proyecto_testng.TestPizzaOrden@6ee52dcd]" name="verificarMensajeDeInicioSeDespliega" duration-ms="23" started-at="2022-11-16T15:21:27 CST" finished-at="2022-11-16T15:21:27 CST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Bienvenido a la aplicación para ordenar pizza.
 
  Sigue las instrucciones por favor.
 
-] but found [Bienvenido a la aplicaciÃ³n para ordenar pizza.\n\n Sigue las instrucciones por favor.kaka]]]>
+] but found [Bienvenido a la aplicaciÃ³n para ordenar pizza.\n\n Sigue las instrucciones por favor.]]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: expected [Bienvenido a la aplicación para ordenar pizza.
 
  Sigue las instrucciones por favor.
 
-] but found [Bienvenido a la aplicaciÃ³n para ordenar pizza.\n\n Sigue las instrucciones por favor.kaka]
+] but found [Bienvenido a la aplicaciÃ³n para ordenar pizza.\n\n Sigue las instrucciones por favor.]
 at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
 at org.testng.Assert.assertEquals(Assert.java:639)
-at proyecto_testng.TestPizzeriaEjercicio1.verificarMensajeDeInicioSeDespliega(TestPizzeriaEjercicio1.java:32)
+at proyecto_testng.TestPizzaOrden.verificarMensajeDeInicioSeDespliega(TestPizzaOrden.java:37)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -219,7 +219,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificarMensajeDeInicioSeDespliega -->
-        <test-method status="FAIL" signature="verificarOpcionVegAlPreguntarOpcionVeganaFalse()[pri:0, instance:proyecto_testng.TestPizzeriaEjercicio1@6ee52dcd]" name="verificarOpcionVegAlPreguntarOpcionVeganaFalse" duration-ms="3961" started-at="2022-11-13T21:07:12 CST" finished-at="2022-11-13T21:07:16 CST">
+        <test-method status="FAIL" signature="verificarOpcionVegAlPreguntarOpcionVeganaFalse()[pri:0, instance:proyecto_testng.TestPizzaOrden@6ee52dcd]" name="verificarOpcionVegAlPreguntarOpcionVeganaFalse" duration-ms="3632" started-at="2022-11-16T15:21:27 CST" finished-at="2022-11-16T15:21:30 CST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [false] but found [true]]]>
@@ -232,7 +232,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:819)
 at org.testng.Assert.assertEquals(Assert.java:829)
-at proyecto_testng.TestPizzeriaEjercicio1.verificarOpcionVegAlPreguntarOpcionVeganaFalse(TestPizzeriaEjercicio1.java:124)
+at proyecto_testng.TestPizzaOrden.verificarOpcionVegAlPreguntarOpcionVeganaFalse(TestPizzaOrden.java:129)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -267,19 +267,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificarOpcionVegAlPreguntarOpcionVeganaFalse -->
-        <test-method status="PASS" signature="verificarOpcionVegAlPreguntarOpcionVeganaTrue()[pri:0, instance:proyecto_testng.TestPizzeriaEjercicio1@6ee52dcd]" name="verificarOpcionVegAlPreguntarOpcionVeganaTrue" duration-ms="1086" started-at="2022-11-13T21:07:16 CST" finished-at="2022-11-13T21:07:17 CST">
+        <test-method status="PASS" signature="verificarOpcionVegAlPreguntarOpcionVeganaTrue()[pri:0, instance:proyecto_testng.TestPizzaOrden@6ee52dcd]" name="verificarOpcionVegAlPreguntarOpcionVeganaTrue" duration-ms="1457" started-at="2022-11-16T15:21:30 CST" finished-at="2022-11-16T15:21:32 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificarOpcionVegAlPreguntarOpcionVeganaTrue -->
-        <test-method status="PASS" signature="verificarOpcionVeganaVerdadera()[pri:0, instance:proyecto_testng.TestPizzeriaEjercicio1@6ee52dcd]" name="verificarOpcionVeganaVerdadera" duration-ms="3" started-at="2022-11-13T21:07:17 CST" finished-at="2022-11-13T21:07:17 CST">
+        <test-method status="PASS" signature="verificarOpcionVeganaVerdadera()[pri:0, instance:proyecto_testng.TestPizzaOrden@6ee52dcd]" name="verificarOpcionVeganaVerdadera" duration-ms="6" started-at="2022-11-16T15:21:32 CST" finished-at="2022-11-16T15:21:32 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificarOpcionVeganaVerdadera -->
-        <test-method status="PASS" signature="verificarOpcopnVeganaFalsa()[pri:0, instance:proyecto_testng.TestPizzeriaEjercicio1@6ee52dcd]" name="verificarOpcopnVeganaFalsa" duration-ms="7" started-at="2022-11-13T21:07:17 CST" finished-at="2022-11-13T21:07:17 CST">
+        <test-method status="PASS" signature="verificarOpcopnVeganaFalsa()[pri:0, instance:proyecto_testng.TestPizzaOrden@6ee52dcd]" name="verificarOpcopnVeganaFalsa" duration-ms="2" started-at="2022-11-16T15:21:32 CST" finished-at="2022-11-16T15:21:32 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificarOpcopnVeganaFalsa -->
-      </class> <!-- proyecto_testng.TestPizzeriaEjercicio1 -->
+      </class> <!-- proyecto_testng.TestPizzaOrden -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
