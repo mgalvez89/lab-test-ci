@@ -3,16 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="proyecto_testng.TestPizzaOrden">
+      <class name="tdd.TestPizzeriaEjercicio2">
         <methods>
-          <include name="verificarListaIngredientesNoVegetarianos"/>
-          <include name="verificarMensajeDeInicioSeDespliega"/>
-          <include name="initialConditions"/>
-          <include name="verificarOpcionVegAlPreguntarOpcionVeganaFalse"/>
+          <include name="verificarSaldoEntre100Y150"/>
           <include name="preConditions"/>
-          <include name="verificarListaIngredientesVegetarianos"/>
+          <include name="initialConditions"/>
+          <include name="verificarSaldoEntre50Y100"/>
         </methods>
-      </class> <!-- proyecto_testng.TestPizzaOrden -->
+      </class> <!-- tdd.TestPizzeriaEjercicio2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

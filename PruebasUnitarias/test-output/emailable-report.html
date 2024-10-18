@@ -9,24 +9,18 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num attn">4</td><td class="num">5,745</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">398</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="4">proyecto_testng.TestPizzaOrden</td><td><a href="#m0">verificarListaIngredientesNoVegetarianos</a></td><td rowspan="1">1668633687144</td><td rowspan="1">53</td></tr><tr class="failedeven"><td><a href="#m1">verificarListaIngredientesVegetarianos</a></td><td rowspan="1">1668633687205</td><td rowspan="1">8</td></tr><tr class="failedeven"><td><a href="#m2">verificarMensajeDeInicioSeDespliega</a></td><td rowspan="1">1668633687220</td><td rowspan="1">23</td></tr><tr class="failedeven"><td><a href="#m3">verificarOpcionVegAlPreguntarOpcionVeganaFalse</a></td><td rowspan="1">1668633687276</td><td rowspan="1">3632</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="10">proyecto_testng.TestPizzaOrden</td><td><a href="#m4">verificarGuardarIngrediente1ComoOpcionInvalida</a></td><td rowspan="1">1668633686900</td><td rowspan="1">79</td></tr><tr class="passedeven"><td><a href="#m5">verificarGuardarIngrediente1ComoPeperoni</a></td><td rowspan="1">1668633687015</td><td rowspan="1">15</td></tr><tr class="passedeven"><td><a href="#m6">verificarGuardarIngrediente1ComoPimiento</a></td><td rowspan="1">1668633687062</td><td rowspan="1">3</td></tr><tr class="passedeven"><td><a href="#m7">verificarGuardarIngrediente2ComoHongos</a></td><td rowspan="1">1668633687069</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m8">verificarGuardarIngrediente2ComoJamon</a></td><td rowspan="1">1668633687076</td><td rowspan="1">3</td></tr><tr class="passedeven"><td><a href="#m9">verificarGuardarIngrediente3ComoEspinaca</a></td><td rowspan="1">1668633687082</td><td rowspan="1">3</td></tr><tr class="passedeven"><td><a href="#m10">verificarGuardarIngrediente3ComoSalchicha</a></td><td rowspan="1">1668633687114</td><td rowspan="1">12</td></tr><tr class="passedeven"><td><a href="#m11">verificarOpcionVegAlPreguntarOpcionVeganaTrue</a></td><td rowspan="1">1668633690915</td><td rowspan="1">1457</td></tr><tr class="passedeven"><td><a href="#m12">verificarOpcionVeganaVerdadera</a></td><td rowspan="1">1668633692376</td><td rowspan="1">6</td></tr><tr class="passedeven"><td><a href="#m13">verificarOpcopnVeganaFalsa</a></td><td rowspan="1">1668633692384</td><td rowspan="1">2</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">tdd.TestPizzeriaEjercicio2</td><td><a href="#m0">verificarSaldoEntre100Y150</a></td><td rowspan="1">1670035710128</td><td rowspan="1">10</td></tr><tr class="failedeven"><td><a href="#m1">verificarSaldoEntre50Y100</a></td><td rowspan="1">1670035710166</td><td rowspan="1">11</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">tdd.TestPizzeriaEjercicio2</td><td><a href="#m2">verificarClienteConTarjeta</a></td><td rowspan="1">1670035710027</td><td rowspan="1">18</td></tr><tr class="passedeven"><td><a href="#m3">verificarClienteSinTarjeta</a></td><td rowspan="1">1670035710073</td><td rowspan="1">7</td></tr><tr class="passedeven"><td><a href="#m4">verificarGuardarCupon</a></td><td rowspan="1">1670035710083</td><td rowspan="1">3</td></tr><tr class="passedeven"><td><a href="#m5">verificarNoGuardarCupon</a></td><td rowspan="1">1670035710089</td><td rowspan="1">14</td></tr><tr class="passedeven"><td><a href="#m6">verificarSaldoMayorA150</a></td><td rowspan="1">1670035710227</td><td rowspan="1">4</td></tr><tr class="passedeven"><td><a href="#m7">verificarSaldoMenorA50</a></td><td rowspan="1">1670035710255</td><td rowspan="1">4</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">proyecto_testng.TestPizzaOrden#verificarListaIngredientesNoVegetarianos</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Selecciona 3 ingredientes de la siguiente lista: 
-[a] Pimiento 
-[b] Hongos 
-[c] Espinaca 
-[d] Peperoni 
-[e] Jamon 
-] but found [Bienvenido a la aplicaciÃ³n para ordenar pizza.\n\n Sigue las instrucciones por favor.]
+<h2>Default test</h2><h3 id="m0">tdd.TestPizzeriaEjercicio2#verificarSaldoEntre100Y150</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Espagueti,Queso Extra] but found [error]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 	at org.testng.Assert.assertEquals(Assert.java:122)
 	at org.testng.Assert.assertEquals(Assert.java:629)
 	at org.testng.Assert.assertEquals(Assert.java:639)
-	at proyecto_testng.TestPizzaOrden.verificarListaIngredientesNoVegetarianos(TestPizzaOrden.java:151)
+	at tdd.TestPizzeriaEjercicio2.verificarSaldoEntre100Y150(TestPizzeriaEjercicio2.java:54)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -56,20 +50,14 @@
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">proyecto_testng.TestPizzaOrden#verificarListaIngredientesVegetarianos</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Selecciona 3 ingredientes de la siguiente lista: 
-[a] Pimiento 
-[b] Hongos 
-[c] Espinaca 
-[o] Ninguno 
-
-] but found [Bienvenido a la aplicaciÃ³n para ordenar pizza.\n\n Sigue las instrucciones por favor.]
+<h3 id="m1">tdd.TestPizzeriaEjercicio2#verificarSaldoEntre50Y100</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Espagueti] but found [error]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 	at org.testng.Assert.assertEquals(Assert.java:122)
 	at org.testng.Assert.assertEquals(Assert.java:629)
 	at org.testng.Assert.assertEquals(Assert.java:639)
-	at proyecto_testng.TestPizzaOrden.verificarListaIngredientesVegetarianos(TestPizzaOrden.java:140)
+	at tdd.TestPizzeriaEjercicio2.verificarSaldoEntre50Y100(TestPizzeriaEjercicio2.java:47)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -99,93 +87,11 @@
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">proyecto_testng.TestPizzaOrden#verificarMensajeDeInicioSeDespliega</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Bienvenido a la aplicación para ordenar pizza.
-
- Sigue las instrucciones por favor.
-
-] but found [Bienvenido a la aplicaciÃ³n para ordenar pizza.\n\n Sigue las instrucciones por favor.]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-	at org.testng.Assert.assertEquals(Assert.java:122)
-	at org.testng.Assert.assertEquals(Assert.java:629)
-	at org.testng.Assert.assertEquals(Assert.java:639)
-	at proyecto_testng.TestPizzaOrden.verificarMensajeDeInicioSeDespliega(TestPizzaOrden.java:37)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">proyecto_testng.TestPizzaOrden#verificarOpcionVegAlPreguntarOpcionVeganaFalse</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [false] but found [true]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-	at org.testng.Assert.assertEquals(Assert.java:122)
-	at org.testng.Assert.assertEquals(Assert.java:819)
-	at org.testng.Assert.assertEquals(Assert.java:829)
-	at proyecto_testng.TestPizzaOrden.verificarOpcionVegAlPreguntarOpcionVeganaFalse(TestPizzaOrden.java:129)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">proyecto_testng.TestPizzaOrden#verificarGuardarIngrediente1ComoOpcionInvalida</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">proyecto_testng.TestPizzaOrden#verificarGuardarIngrediente1ComoPeperoni</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">proyecto_testng.TestPizzaOrden#verificarGuardarIngrediente1ComoPimiento</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">proyecto_testng.TestPizzaOrden#verificarGuardarIngrediente2ComoHongos</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">proyecto_testng.TestPizzaOrden#verificarGuardarIngrediente2ComoJamon</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">proyecto_testng.TestPizzaOrden#verificarGuardarIngrediente3ComoEspinaca</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">proyecto_testng.TestPizzaOrden#verificarGuardarIngrediente3ComoSalchicha</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">proyecto_testng.TestPizzaOrden#verificarOpcionVegAlPreguntarOpcionVeganaTrue</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m12">proyecto_testng.TestPizzaOrden#verificarOpcionVeganaVerdadera</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m13">proyecto_testng.TestPizzaOrden#verificarOpcopnVeganaFalsa</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tdd.TestPizzeriaEjercicio2#verificarClienteConTarjeta</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tdd.TestPizzeriaEjercicio2#verificarClienteSinTarjeta</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tdd.TestPizzeriaEjercicio2#verificarGuardarCupon</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tdd.TestPizzeriaEjercicio2#verificarNoGuardarCupon</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">tdd.TestPizzeriaEjercicio2#verificarSaldoMayorA150</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">tdd.TestPizzeriaEjercicio2#verificarSaldoMenorA50</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
